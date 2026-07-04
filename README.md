@@ -2,6 +2,15 @@
 
 High-speed data transport framework for large-scale file transfers.
 
+# Features
+
+1. File transfer with highest speed.
+2. Achieves maximum transfer speed using multiple parallel socket connections and a proprietary communication protocol.
+3. Resumable multipart file transfers.
+4. Gracefully handles corrupted or partially transmitted files.
+5. High-performance in-memory file compression using the Zstandard (zstd) library, with direct transmission and no temporary disk storage.
+6. Supports reading and transmitting files directly from network shares.
+
 ## Building
 
 1. Install **zstdlib** using **vcpkg**.
